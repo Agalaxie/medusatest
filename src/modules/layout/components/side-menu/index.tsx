@@ -12,6 +12,7 @@ import { HttpTypes } from "@medusajs/types"
 const SideMenuItems = {
   Home: "/",
   Store: "/store",
+  Collections: "/collections/new",
   Account: "/account",
   Cart: "/cart",
 }
