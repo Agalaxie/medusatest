@@ -34,6 +34,17 @@ module.exports = {
           80: "#1F2937",
           90: "#111827",
         },
+        // Urban Minimalist Theme
+        urban: {
+          charcoal: "#1A1A1A",
+          stone: "#D4C4B0",
+          terracotta: "#C67B5C",
+          sand: "#F5F1ED",
+          slate: "#4A4A4A",
+          cream: "#FAF8F5",
+          copper: "#B86F50",
+          graphite: "#2D2D2D",
+        },
       },
       borderRadius: {
         none: "0px",
@@ -60,6 +71,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "var(--font-inter)",
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -67,6 +79,14 @@ module.exports = {
           "Roboto",
           "Helvetica Neue",
           "Ubuntu",
+          "sans-serif",
+        ],
+        heading: [
+          "var(--font-montserrat)",
+          "Montserrat",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
           "sans-serif",
         ],
       },
